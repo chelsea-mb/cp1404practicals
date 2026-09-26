@@ -1,0 +1,13 @@
+"""
+CP1404/CP5632 - Practical
+Broken program to determine score status
+"""
+score = float(input("Enter score: "))
+if score < 50:
+    print("Bad")
+elif score < 89:
+    print("Passable")
+elif score < 101:
+    print("Excellent")
+else:
+    print("Invalid score")
